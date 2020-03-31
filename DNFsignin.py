@@ -158,7 +158,7 @@ class DnfCheck(object):
 if __name__ == '__main__':
     option = webdriver.ChromeOptions()
     option.add_argument('headless')
-    qq_id = '1650944985'
-    qq_pas = 'liupeng1511112'
+    qq_id = '你的账号'
+    qq_pas = '你的密码'
     dnf = DnfCheck(qq_id, qq_pas, option)
     dnf.run()
